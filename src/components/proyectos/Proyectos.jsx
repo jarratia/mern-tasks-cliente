@@ -1,6 +1,7 @@
 import React from 'react'
 import Barra from '../layout/Barra'
 import Sidebar from '../layout/Sidebar'
+import FormTarea from '../tareas/FormTarea'
 
 const Proyectos = () => {
     return (
@@ -16,6 +17,7 @@ const Proyectos = () => {
                     <main>
                         <div className="contenedor-tareas">
                             {/* Sección para administrar las tareas */}
+                            <FormTarea />
                         </div>
                     </main>
                 </div>
